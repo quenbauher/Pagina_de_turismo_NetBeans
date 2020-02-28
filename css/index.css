@@ -1,0 +1,328 @@
+
+  
+
+       
+        
+
+
+body {
+    font-size: 62.5%;
+    /*	background: url(jardin.jpg) /*-91px 0 *//*no-repeat center center fixed;*/
+
+    font-family: "Lucida Grande", Verdana, Geneva, Lucida, Arial, Helvetica, sans-serif;
+}
+ /* Safari and Chrome */
+        
+
+
+
+
+#jardindefondo1 {
+    
+    
+  // background-image: url('../vistas/imagenes/logo-valle-gobernacion.jpg');
+    z-index: -999;
+        width: 100%;
+        height: 100%;
+        
+        position: fixed;
+        top: 0;
+        
+       left: 0;
+       
+       
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*#logobanner*/
+
+.btn-info:hover {   /*este codigo hace temblar a la imagen de adrentro de la banner que se mueves el paisaje pequeñito  */
+
+    
+    animation: shake 0.2s;
+    animation-iteration-count: -2px;
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+
+
+
+    
+}
+
+#jardindefondo2 {
+    z-index: -999;
+    width: 100%;
+    height: 100%;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    /* filter: grayscale(100%);  /* coloca la imagen blanco y negro*/
+    opacity: 0.5;
+    filter: Alpha(opacity=50); /* IE8 and earlier */
+    
+
+
+}    
+
+h1, h2, h3, p, ul {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+#banner {
+    
+    display:block;
+    text-align:center;
+    padding: 8px;
+   /* border-radius: 150%;
+    
+    /*background: url('../imagenes/anniv_banner.png') no-repeat right top;*/
+    /*  width: 1340px;/* ancho del primer banner */
+    /* height: 100px; /*alto del primer banner  */
+    background-color: #a6d617;
+    position: relative;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+   -webkit-animation-duration: 4s ; /* Safari 4.0 - 8.0 */
+   -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+   animation-duration: 5s;
+   animation-delay: 2s;
+     opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */ /* coloca la imagen opaca
+
+
+
+    /* animation-iteration-count: infinite;*/
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    0%   {background-color:#a6d617 ; }
+    25%  {background-color:#6fb90d; }
+    50%  {background-color: #12c4e8; }
+    75%  {background-color:#fcef02; }
+    100% {background-color:#a6d617 ; }
+}
+
+/* Standard syntax */
+@keyframes example {
+     0%   {background-color:#a6d617 ; }
+    25%  {background-color:#6fb90d; }
+    50%  {background-color: #12c4e8; }
+    75%  {background-color:#fcef02; }
+    100% {background-color:#a6d617 ; }
+
+
+
+
+
+}
+#banner ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    
+}
+
+
+
+
+
+
+
+
+
+
+#banner li {
+    
+    margin-left: 10px;
+}
+#banner li a {
+    color: #666666;
+    text-decoration: none;
+    text-transform: uppercase;
+    font: 1.1em "Trebuchet MS";
+   
+}
+
+
+
+
+#princNav ul {
+    
+     /*border-radius:300%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    /*	background: url('../imagenes/bg_nav.png') repeat-x left top;*//*esta linea me coloca una imagen de color en cada button*/
+    float: left;
+    border-bottom: 0px solid #000;/*pusiomos borde 0 y estaba en 1*/
+    width: auto;/*aqui la medica normal estaba a width:100px;*/
+
+
+
+
+
+
+
+
+}
+
+
+#princNav li {
+    
+    width:auto;
+    float:left;
+    padding: 0;
+    margin: 0;
+}
+
+#princNav li a, #princNav li a:link {
+   /* display: inline;*/
+    /*padding-right: 20px;*/
+    
+     border-radius:5%;
+    color: #fcf800;
+    text-decoration: none;
+    padding: .5em 1em;
+    border-right: 1px solid #fcf810;
+    display: block;
+    font: bold 1em "Lucida Grande", Verdana, Geneva, Lucida, Arial, Helvetica, sans-serif;
+}
+
+#princNav li a:hover {
+    /*background-position:top center;*/
+    background: url('../imagenes/bg_side_head.png');
+}
+
+
+
+
+
+#principal h1 { 
+    color: #663900;
+    padding-top: 15px;
+    margin-bottom: 10px;
+    font: bold 2.3em Georgia, "Times New Roman", Times, serif;
+   
+}
+
+#principal h2 {
+    font-size: 1.8em;
+    font-weight: normal;
+    border-bottom: 1px solid #106A9B;
+    margin-bottom: 5px;
+    color: #663900;
+}
+
+#principal p {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+
+#barralateral {
+    background-color: #D9ECFF;
+
+
+    /*	-ms-transform: rotate(45deg); /* IE 9    estas 6 lineas de codigo hacen que la imagen rote*/
+    /*  -ms-transform-origin: 20% 40%; /* IE 9 */
+    /* -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    /* -webkit-transform-origin: 20% 40%; /* Chrome, Safari, Opera */
+    /* transform: rotate(45deg);
+   /*  transform-origin: 20% 40%;*/
+
+
+
+
+}
+
+#barralateral h2 {
+    font-size: 1.3em;
+    color: #FFFFFF;
+    padding: 7px 8px 0 8px;
+    margin-bottom: 5px;
+    border-top: 3px solid #86B500;
+    background: url('../imagenes/bg_side_head.png') repeat-x left bottom;
+}
+#barralateral p {
+    margin-right: 5px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    color: #666666;
+}
+#barralateral h3 {
+    font-size: 1.1em;
+    margin-right: 5px;
+    margin-left: 5px;
+    color: #663900;
+    margin-bottom: 3px;
+}
+#barralateral h3 a {
+    color: #663900;
+}
+
+#barralateral a:hover {
+    color: #CA1D07;
+}
+
+
+#advertencias p {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+
+#pie {
+    padding: 5px;
+    border-top: 1px solid #000;
+    background-color: #86B500;
+    font-weight: bold;
+    color: #000000;
+}
+
+/*img {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */ /* coloca la imagen opaca */
+/*}*/
+
+/*img {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+/*    filter: grayscale(100%);  /* coloca la imagen blanco y negro*/
+/*  */
+
+
+/* 
+img:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}/* voltea la imagen al pasar el cursor por la imagen */

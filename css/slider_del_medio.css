@@ -1,0 +1,241 @@
+
+
+
+
+/*Slider*/
+.slider
+{
+	/*width:600px;
+	height:300px;
+        
+        
+	float:left;
+	overflow:hidden;
+	top: 400px;
+	left: 200px;
+        
+    
+    
+    
+        
+        //color: #fcf810;
+    text-decoration: none;
+    padding:auto;
+    border-radius: 5px;
+    border: 2px;
+   /* border-right: 1px solid #fcf810;*/
+ /*  border-width: 2px 2px 4px 5px;
+        // border-style: outset;
+         border-style: solid;
+    border-color: red green blue yellow;
+        
+        
+  */
+  
+  
+ // background-color: #179CFB;
+     //background-color: #CEE3F6;
+     /*efectos de sombra*/
+     
+/*    box-shadow: -10px 10px 20px #000000, 0 0 0 10px #8fccf7 inset;
+    // box-shadow: 0px 6px 10px #FA5882, 0 0 0 10px #FA5882 inset;
+ // background: #FFFBB9; 
+  //border: 1px solid #999999; 
+ // padding: 20px;
+  //border-radius: 20px;
+ // background-color: #CEE3F6;
+  
+  // background-color:#ddd;
+   //left:30px;
+   
+ // position:relative;
+ // border-radius: 20px; #eefa14
+  
+  padding:auto;
+   
+  /*genera un efecto transparente alrededor del recuadro si comento esta 2 lineas de codigo, aparese otro efecto*/
+  background-color: #179CFB;
+     //background-color: #CEE3F6;
+     /*efectos de sombra*/
+     
+     //box-shadow: -5px 10px 20px #000102, 0 0 0 10px #eefa14 inset;
+     box-shadow: 0px 8px 11px #eefa14, 0 0 0 10px #eefa14 inset;//efecto transparente amarillo
+ // background: #FFFBB9; 
+  //border: 1px solid #999999; 
+ // padding: 20px;
+  //border-radius: 20px;
+ // background-color: #CEE3F6;
+  
+  // background-color:#ddd;
+   left:auto;
+  position:relative;
+  border-radius: 5px; 
+  
+  padding:2px;
+   
+  /*genera un efecto transparente alrededor del recuadro si comento esta 2 lineas de codigo, aparese otro efecto*/
+  background: -webkit-linear-gradient(top, transparent, #666666);
+  background: -moz-linear-gradient(top, transparent, #666666);
+  
+ 
+    animation-delay: 0s;
+  -moz-animation-name: animacion1;
+  -moz-animation-duration: 0s;
+  -webkit-animation: animacion1 0s;
+
+  -o-animation-name: animacion1;
+  -o-animation-duration: 0s;
+}
+@-moz-keyframes animacion1 {
+  from {
+    left:30px;
+    //background-color:#ddd;
+    background-color:#BBE3FF;
+  }
+  to {
+    right:300px; 
+    //background-color:#ff0;
+    background-color:#061EA6;
+  }
+}
+
+@-webkit-keyframes animacion1 {
+  from {
+    left:30px;
+    //background-color:#ddd;
+    background-color:#BBE3FF;
+  }
+  to {
+    left:300px; 
+    background-color:#061EA6;
+  }
+}
+
+@-o-keyframes animacion1 {
+  from {
+    left:30px;
+    //background-color:#ddd;
+    background-color:#BBE3FF;
+  }
+  to {
+    left:300px; 
+    background-color:#061EA6;
+  }
+  
+}
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+         
+        
+	
+
+
+
+
+.s_element{
+	position:relative;
+	width:100%;
+	height:100%;
+	display:none;
+        
+}
+
+.s_visible
+{
+	display:block;
+        
+}
+
+#ele1{
+	background:#FF812D;
+}
+
+#ele2{
+	background:#0000FF;
+}
+
+#ele3{
+	background:gray;
+}
+
+/*Body*/
+
+
+
+
+/*Content*/
+
+.ledoylaposicion{
+	position:absolute;
+		top: 300px;
+		left: 40px;
+                /* float: right;*/
+		
+	
+}
+#btnSig{
+    
+   /* background-image:url(../imagenes/bg_nav_h.png);
+          background-repeat:no-repeat;*/
+            height:auto;
+            width:auto;
+         background-position:center;
+         
+         
+}
+#btnAnt{
+    
+  /*  background-image:url(../imagenes/bg_nav_h.png);
+          background-repeat:no-repeat;*/
+            height:auto;
+            width:auto;
+         background-position:center;
+         
+         
+}
+
+.next_button {
+    border: 0px;
+    height: 100px;
+    margin: 30px 30px 30px 30px;
+    text-align: right;
+    
+    
+    
+}
+#boton{
+     
+	 position: absolute;
+    bottom: 10px;
+    right: -20px;
+        
+
+     
+	
+	
+}
+
+
+.next_button2 {
+    border: 0px;
+    height: 100px;
+    margin: 30px 30px 30px 30px;
+    text-align: right;
+    
+}
+#boton2{
+	 position: absolute;
+    bottom: 10px;
+    right: 787px;
+                
+	
+	
+}
