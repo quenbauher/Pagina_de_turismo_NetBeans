@@ -42,7 +42,7 @@
 
                 
                           <ul>
-                              <a href='index.php'><li><b>Inicio</b></li></a>
+                              <a href='index.html'><li><b>Inicio</b></li></a>
                                 <a href='indexlogin.php'><li><b> Login</b></li></a>
                               <!--  <a href='index.php'><li><b>Inicio</b></li></a>
                                 <a href='index.php'><li><b>Inicio</b></li></a>-->
